@@ -1,7 +1,7 @@
 @media (min-width: 1200px){
     .services{
         width: 100%;
-        height: 785px;
+        height: auto;
         background-image: url(../images/connecr.jfif);
         background-repeat: no-repeat;
         background-size: cover;
@@ -16,13 +16,16 @@
         justify-content: center;
         align-items: center;
         background-color: rgba(0, 0, 0, 0.397);
+        gap: 30px;
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
     .services>div>a{
         width: 550px;
         height: 260px;
         background-color: rgba(255, 255, 255, 0.507);
-        margin-right: 15px;
-        margin-left: 15px;
+        /* margin-right: 15px;
+        margin-left: 15px; */
         border-radius: 10px;
         display: flex;
         justify-content: center;
@@ -31,20 +34,7 @@
         color: black;
         direction: rtl;
     }
-    .services>div>a:nth-of-type(1)
-    {
-        margin-top: 100px;    
-    }
-    .services>div>a:nth-of-type(2)
-    {
-        margin-top: 100px;    
-    }.services>div>a:nth-of-type(3)
-    {
-        margin-bottom: 100px;    
-    }.services>div>a:nth-of-type(4)
-    {
-        margin-bottom: 100px;    
-    }
+
     .services>div>a>p:nth-of-type(2)
     {
         display: none;
