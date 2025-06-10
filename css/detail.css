@@ -99,7 +99,7 @@
 
     }
     div.head {
-        background: url("../images/bg04.webp") no-repeat center center;
+        background: url("../images/bg04.webp") no-repeat center center ;
         background-size: cover;
         height: 1000px;
         display: flex;
@@ -123,6 +123,7 @@
         width: 100%;
         background-color: rgba(0, 0, 0, 0.192);
         direction: rtl;
+        background-image: none;
     }
     div.head div.slogan h1 {
         font-size: 50px;
@@ -623,6 +624,8 @@
         width: 100%;
         background-color: rgba(0, 0, 0, 0.192);
         direction: rtl;
+                background-image: none;
+
     }
     div.head div.slogan h1 {
         font-size: 50px;
@@ -1187,6 +1190,8 @@
         width: 100%;
         background-color: rgba(0, 0, 0, 0.56);
         direction: rtl;
+                background-image: none;
+
     }
     div.head div.slogan h1 {
         font-size: 40px;
@@ -1753,6 +1758,8 @@
         width: 100%;
         background-color: rgba(0, 0, 0, 0.56);
         direction: rtl;
+                background-image: none;
+
     }
     div.head div.slogan h1 {
         font-size: 40px;
@@ -2317,6 +2324,8 @@
         width: 100%;
         background-color: rgba(0, 0, 0, 0.56);
         direction: rtl;
+                background-image: none;
+
     }
     div.head div.slogan h1 {
         font-size: 30px;
